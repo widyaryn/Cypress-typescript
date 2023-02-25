@@ -25,7 +25,7 @@ export class LoginPage{
     assertLoginFail(){
         cy.get('[data-test="error"]').should('be.visible')
     }
-    login(url : string,username : string,password : string){
+    login(url : string, username : string, password : string){
         this.navigate(url)
         this.inputUsername(username)
         this.inputPassword(password)

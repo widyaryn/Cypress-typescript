@@ -5,6 +5,7 @@ let loginPage = new LoginPage()
 let dashboardPage = new DashboardPage()
 const URL = 'https://www.saucedemo.com/'
 
+
 it('Test LOGIN', () => {
     loginPage.login(URL,'standard_user','secret_sauce')
     loginPage.assertLogin() 
@@ -20,3 +21,11 @@ it('Test Sauce Demo Sauce labs product backpack', () => {
     loginPage.assertLogin()
     dashboardPage.sauceLabsBackpack() 
 })
+
+
+// Then I Create 4 new flows of automation :
+
+// 1. add to cart - sauce labs fleece jacket and sauce labs bike light - in addtocart.ts
+// 2. remove from cart - sauce labs fleece jacket and sauce labs bike light - in addtocart.ts
+// 3. failed checkout products in cart  because empty information - in checkout.ts
+// 4. success checkout products in cart - in checkout.ts
