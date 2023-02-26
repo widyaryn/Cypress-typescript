@@ -24,8 +24,11 @@ npx cypress open
 
 TASK 1 TUGAS AKHIR - WIDYA ARIYANI - SAUCE LABS - Cypress Web Testing Scenario - Bootcamp Sanbercode Kelas Karyawan Batch 41									
 
-Test Info :	Sauce Labs Web Testing Scenario									
-Test Cases:	Add To Cart; Checkout Products									
-Git Url  (Forked) :		https://github.com/widyaryn/Cypress-typescript.git								
+Test Info :	Sauce Labs Web Testing Scenario
+Test Cases:	Add To Cart; Checkout Products
+
+Git Url  (Forked) :		https://github.com/widyaryn/Cypress-typescript.git
+
 Record Screen Url:		https://drive.google.com/file/d/13R2sAp-P5155AivOEVZ4WOXjr_gecMfl/view?usp=sharing
+
 Test Scenario Url: https://docs.google.com/spreadsheets/d/19cyr34bund6ES4KaVedyWUPeJ_0Op2KrWNVNYG1K-W0/edit?usp=sharing
